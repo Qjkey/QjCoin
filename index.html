@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <script>
-    let score = 1
+    let score = getItem(key, callback)
     let a = document.getElementById("score").value = `${score}`;
     document.getElementById("score").innerHTML =a;
     function f(){
         score++;
+        setItem(key, value[score, callback]);
         let a = document.getElementById("score").value = `${score}`;
         document.getElementById("score").innerHTML =a;
     }
